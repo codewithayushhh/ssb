@@ -1,0 +1,86 @@
+body{
+    font-family: 'Baloo Bhai';
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('fitman.jpg');
+}
+.left{
+    display: inline-block;
+position: absolute;
+top: 20px;
+left: 34px;
+
+}
+.middle{
+border: 0.3px solid white;
+display: block;
+width: 33%;
+margin: 20px auto;
+border-radius: 12px;
+}
+.right{
+    display: inline-block;
+ position: absolute;
+ top: 20px;
+ right: 34px;
+ text-decoration: none;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 24px 12px;
+    font-size: 18px;
+}
+.navbar li a:hover,a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.left img{
+    width: 67px;
+}
+.header div{
+    align-content: center;
+    font-size: 13px;
+}
+.btm{
+    font-family: 'Baloo Bhai';
+margin: 5px 1px;
+padding: 2px 6px;
+ border-radius: 1px;
+ 
+}
+.btm:hover{
+    color: grey;
+}
+.left div{
+    line-height: 19px;
+    font-size: medium;
+    text-align: center;
+}
+.container{
+    border: 2px solid white;
+    padding:50px;
+    border-radius: 36px;
+    margin: 135px 119px;
+    width: 33%;
+}
+.formgroup input{
+    display: block;
+    font-family: 'Baloo Bhai';
+    text-align: center;
+    padding: 2px;
+    width: 300px;
+    margin: 2px auto;
+}
+.but{
+    text-align: center;
+}
+.container h1{
+    text-align: center;
+}
+
+
